@@ -139,7 +139,6 @@ namespace orgel
                 img.SetImageResource(keyboard.GetKeyImageByNum(i));
                 img.RotationY = keyboard.GetKeyFlippedByNum(i) ? 180 : 0;
                 img.Touch += Img_Touch;
-                //img.Click += AnimateClick;
                 img.SetAdjustViewBounds(true);
                 img.SetBackgroundColor(Android.Graphics.Color.Transparent);
                 imageButtons.Add(img);

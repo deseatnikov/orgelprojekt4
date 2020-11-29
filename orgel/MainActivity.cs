@@ -35,7 +35,7 @@ namespace orgel
                 });
 
             listener.StartListening();
-            Timer timer = new Timer { Interval=TimeSpan.FromSeconds(1).TotalMilliseconds };
+            Timer timer = new Timer { AutoReset = true, Interval=TimeSpan.FromSeconds(1).TotalMilliseconds };
             timer.Elapsed += OnTimerElapsed;
             timer.Start();
         }

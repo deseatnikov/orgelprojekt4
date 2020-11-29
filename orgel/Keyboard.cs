@@ -143,9 +143,13 @@ namespace orgel
             return msgString;
         }
 
-        private string GetVelocity(int num)
+        private string GetVelocity(int num, bool noteon)
         {
-            return "00000100"; //todo actual velocity, this is a placeholder
+            if (noteon)
+            {
+                return "11111111";
+            }
+            return "00000000"; //todo actual velocity, this is a placeholder
         }
 
         public byte[] GetNoteOnMessageByNum(int num)
@@ -153,7 +157,7 @@ namespace orgel
             string msg = "1001";
             msg += GetNoteChannel(num);
             msg += GetNoteNumber(num);
-            msg += GetVelocity(num);
+            msg += GetVelocity(num, true);
             return GetBytesFromBinaryString(msg);
         }
 
@@ -162,7 +166,7 @@ namespace orgel
             string msg = "1000";
             msg += GetNoteChannel(num);
             msg += GetNoteNumber(num);
-            msg += GetVelocity(num);
+            msg += GetVelocity(num, false);
             return GetBytesFromBinaryString(msg);
         }
 

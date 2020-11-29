@@ -27,7 +27,6 @@ namespace orgel
 
             IPEndPoint endpoint = new IPEndPoint(IPAddress.Broadcast, port);
 
-            // string reconverted = Encoding.ASCII.GetString(msg)
             await client.SendAsync(message, message.Length, endpoint);
 
             client.Close();
