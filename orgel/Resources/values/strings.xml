@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Orgel</string>
+    <string name="title_home">Home</string>
+    <string name="title_keys">Játszóasztal</string>
+    <string name="title_states">Setzer</string>
+    <string name="desc_home">Beágyazott Rendszerek az Orgonaművészetben Projektmunka\n\nDeseatnikov Dániel, Flórián Dániel</string>
+    <string name="desc_keys">Az további felületeket balra való swipeolással érhetjük el.</string>
+    <string name="desc_states">Először a játszóasztalt.</string>
+    <string name="desc_generic">Majd a regisztereket.</string>
+  <string name="state2">II</string>
+  <string name="state1">I</string>
+  <string name="statep">P</string>
+</resources>

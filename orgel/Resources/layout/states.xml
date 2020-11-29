@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+
+    <TextView android:id="@+id/labelState2" android:layout_width="match_parent" android:layout_height="0dp" android:adjustViewBounds="true" android:text="@string/state2" android:layout_weight="1"/>
+
+    <LinearLayout android:id="@+id/layout2" android:layout_below="@id/labelState2" android:layout_width="match_parent" android:layout_height="0dp" android:orientation="horizontal" android:layout_weight="2">
+        <ImageButton android:id="@+id/btnState21" android:layout_width="0dp" android:layout_height="match_parent" android:layout_gravity="center" android:scaleType="fitCenter" android:adjustViewBounds="true" android:src="@drawable/button1" android:background="@android:color/transparent" android:layout_weight="1"/>
+        <ImageButton android:id="@+id/btnState22" android:layout_width="0dp" android:layout_height="match_parent" android:layout_gravity="center" android:scaleType="fitCenter" android:adjustViewBounds="true" android:src="@drawable/button2" android:background="@android:color/transparent" android:layout_weight="1"/>
+        <ImageButton android:id="@+id/btnState23" android:layout_width="0dp" android:layout_height="match_parent" android:layout_gravity="center" android:scaleType="fitCenter" android:adjustViewBounds="true" android:src="@drawable/button3" android:background="@android:color/transparent" android:layout_weight="1"/>
+        <ImageButton android:id="@+id/btnState24" android:layout_width="0dp" android:layout_height="match_parent" android:layout_gravity="center" android:scaleType="fitCenter" android:adjustViewBounds="true" android:src="@drawable/button4" android:background="@android:color/transparent" android:layout_weight="1"/>
+        <ImageButton android:id="@+id/btnState25" android:layout_width="0dp" android:layout_height="match_parent" android:layout_gravity="center" android:scaleType="fitCenter" android:adjustViewBounds="true" android:src="@drawable/button5" android:background="@android:color/transparent" android:layout_weight="1"/>
+        <ImageButton android:id="@+id/btnState26" android:layout_width="0dp" android:layout_height="match_parent" android:layout_gravity="center" android:scaleType="fitCenter" android:adjustViewBounds="true" android:src="@drawable/button6" android:background="@android:color/transparent" android:layout_weight="1"/>
+    </LinearLayout>
+
+    <TextView android:id="@+id/labelState1" android:layout_width="match_parent" android:layout_height="0dp" android:adjustViewBounds="true" android:text="@string/state1" android:layout_weight="1"/>
+
+    <LinearLayout android:id="@+id/layout1" android:layout_below="@id/labelState1" android:layout_width="match_parent" android:layout_height="0dp" android:orientation="horizontal" android:layout_weight="2">
+        <ImageButton android:id="@+id/btnState11" android:layout_width="0dp" android:layout_height="match_parent" android:layout_gravity="center" android:scaleType="fitCenter" android:adjustViewBounds="true" android:src="@drawable/button1" android:background="@android:color/transparent" android:layout_weight="1"/>
+        <ImageButton android:id="@+id/btnState12" android:layout_width="0dp" android:layout_height="match_parent" android:layout_gravity="center" android:scaleType="fitCenter" android:adjustViewBounds="true" android:src="@drawable/button1" android:background="@android:color/transparent" android:layout_weight="1"/>
+        <ImageButton android:id="@+id/btnState13" android:layout_width="0dp" android:layout_height="match_parent" android:layout_gravity="center" android:scaleType="fitCenter" android:adjustViewBounds="true" android:src="@drawable/button1" android:background="@android:color/transparent" android:layout_weight="1"/>
+        <ImageButton android:id="@+id/btnState14" android:layout_width="0dp" android:layout_height="match_parent" android:layout_gravity="center" android:scaleType="fitCenter" android:adjustViewBounds="true" android:src="@drawable/button1" android:background="@android:color/transparent" android:layout_weight="1"/>
+    </LinearLayout>
+
+    <TextView android:id="@+id/labelStateP" android:layout_width="match_parent" android:layout_height="0dp" android:adjustViewBounds="true" android:text="@string/statep" android:layout_weight="1"/>
+
+    <LinearLayout android:id="@+id/layoutp" android:layout_below="@id/labelStateP" android:layout_width="match_parent" android:layout_height="0dp" android:orientation="horizontal" android:layout_weight="2">
+        <ImageButton android:id="@+id/btnStatep1" android:layout_width="0dp" android:layout_height="match_parent" android:layout_gravity="center" android:scaleType="fitCenter" android:adjustViewBounds="true" android:src="@drawable/button1" android:background="@android:color/transparent" android:layout_weight="1"/>
+        <ImageButton android:id="@+id/btnStatep2" android:layout_width="0dp" android:layout_height="match_parent" android:layout_gravity="center" android:scaleType="fitCenter" android:adjustViewBounds="true" android:src="@drawable/button1" android:background="@android:color/transparent" android:layout_weight="1"/>
+        <ImageButton android:id="@+id/btnStatep3" android:layout_width="0dp" android:layout_height="match_parent" android:layout_gravity="center" android:scaleType="fitCenter" android:adjustViewBounds="true" android:src="@drawable/button1" android:background="@android:color/transparent" android:layout_weight="1"/>
+    </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
